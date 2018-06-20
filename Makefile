@@ -4,7 +4,7 @@ TOPDIR = $(shell git rev-parse --show-toplevel)
 PROJECT_NAME = celery-flower
 
 # Docker.
-DOCKER_ORG = ryr
+DOCKER_ORG = requestyoracks
 DOCKER_IMAGE=$(PROJECT_NAME)
 TAG ?= $(shell git describe)
 
